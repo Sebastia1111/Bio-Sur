@@ -73,7 +73,3 @@
 </tr>
 </table>
 </div>
-
----
-
-¿Hay algún detalle extra que quieras agregar, como librerías específicas (Jetpack Compose, Room, Retrofit) o capturas de pantalla?
