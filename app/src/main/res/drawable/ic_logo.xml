@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Fondo circular azul -->
+    <path
+        android:fillColor="#FF0D2A4E"
+        android:pathData="M60,60m-58,0a58,58 0,1 1,116 0a58,58 0,1 1,-116 0" />
+    <!-- Gota estilizada en naranjo -->
+    <path
+        android:fillColor="#FFFF6B1A"
+        android:pathData="M60,28 C44,48 38,58 38,68 C38,80 48,90 60,90 C72,90 82,80 82,68 C82,58 76,48 60,28 Z" />
+    <!-- Letra B en blanco -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M52,50 L60,50 C66,50 70,53 70,58 C70,61 68,63 65,64 C68,65 71,67 71,71 C71,76 67,79 60,79 L52,79 Z M57,54 L57,62 L60,62 C63,62 65,60 65,58 C65,55 63,54 60,54 Z M57,66 L57,75 L60,75 C64,75 66,73 66,70 C66,67 64,66 60,66 Z" />
+</vector>

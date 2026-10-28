@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <!-- Login (Compañero 1) -->
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="cl.biosur.app.ui.auth.LoginFragment"
+        android:label="@string/login_title">
+        <action
+            android:id="@+id/action_login_to_reports"
+            app:destination="@id/reportListFragment"
+            app:popUpTo="@id/loginFragment" inclusive="true" />
+        <action
+            android:id="@+id/action_login_to_dashboard"
+            app:destination="@id/companyDashboardFragment"
+            app:popUpTo="@id/loginFragment" inclusive="true" />
+    </fragment>
+
+    <!-- Lista de informes (Compañero 2) -->
+    <fragment
+        android:id="@+id/reportListFragment"
+        android:name="cl.biosur.app.ui.report.ReportListFragment"
+        android:label="@string/report_list">
+        <action
+            android:id="@+id/action_list_to_form"
+            app:destination="@id/reportFormFragment" />
+        <action
+            android:id="@+id/action_list_to_detail"
+            app:destination="@id/reportDetailFragment" />
+    </fragment>
+
+    <!-- Formulario de informe (Compañero 2) -->
+    <fragment
+        android:id="@+id/reportFormFragment"
+        android:name="cl.biosur.app.ui.report.ReportFormFragment"
+        android:label="@string/report_new">
+        <argument
+            android:name="reportId"
+            app:argType="long"
+            android:defaultValue="-1L" />
+    </fragment>
+
+    <!-- Detalle de informe -->
+    <fragment
+        android:id="@+id/reportDetailFragment"
+        android:name="cl.biosur.app.ui.report.ReportDetailFragment"
+        android:label="Detalle del informe">
+        <argument
+            android:name="reportId"
+            app:argType="long" />
+    </fragment>
+
+    <!-- Lista de empleados (Compañero 1) -->
+    <fragment
+        android:id="@+id/employeeListFragment"
+        android:name="cl.biosur.app.ui.employees.EmployeeListFragment"
+        android:label="@string/employee_list">
+        <action
+            android:id="@+id/action_list_to_employee_form"
+            app:destination="@id/employeeFormFragment" />
+    </fragment>
+
+    <!-- Formulario de empleado (Compañero 1) -->
+    <fragment
+        android:id="@+id/employeeFormFragment"
+        android:name="cl.biosur.app.ui.employees.EmployeeFormFragment"
+        android:label="@string/employee_new">
+        <argument
+            android:name="employeeId"
+            app:argType="long"
+            android:defaultValue="-1L" />
+    </fragment>
+
+    <!-- Panel empresa (Compañero 3) -->
+    <fragment
+        android:id="@+id/companyDashboardFragment"
+        android:name="cl.biosur.app.ui.company.CompanyDashboardFragment"
+        android:label="@string/dashboard_title">
+        <action
+            android:id="@+id/action_dashboard_to_report_detail"
+            app:destination="@id/reportDetailFragment" />
+    </fragment>
+
+</navigation>

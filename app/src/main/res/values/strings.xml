@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">BIOSUR</string>
+    <string name="app_subtitle">Baños Químicos Sanitarios</string>
+    <string name="app_tagline">Supervisión de obras en terreno</string>
+
+    <!-- Roles -->
+    <string name="role_company">Empresa</string>
+    <string name="role_supervisor">Supervisor</string>
+
+    <!-- Login -->
+    <string name="login_title">Iniciar Sesión</string>
+    <string name="login_email_hint">Correo electrónico</string>
+    <string name="login_password_hint">Contraseña</string>
+    <string name="login_button">Ingresar</string>
+    <string name="login_error_credentials">Correo o contraseña incorrectos</string>
+    <string name="login_error_empty">Completa todos los campos</string>
+    <string name="login_hint_company_account">Tu cuenta fue entregada por la empresa BIOSUR</string>
+
+    <!-- Bottom nav -->
+    <string name="nav_reports">Informes</string>
+    <string name="nav_employees">Empleados</string>
+    <string name="nav_dashboard">Panel</string>
+    <string name="nav_profile">Perfil</string>
+
+    <!-- Reports -->
+    <string name="report_new">Nuevo informe</string>
+    <string name="report_list">Informes</string>
+    <string name="report_field_date">Fecha</string>
+    <string name="report_field_start_time">Hora de inicio</string>
+    <string name="report_field_end_time">Hora de término</string>
+    <string name="report_field_comments">Comentarios del trabajo</string>
+    <string name="report_field_materials">Materiales utilizados</string>
+    <string name="report_field_equipment">Equipos utilizados</string>
+    <string name="report_field_personnel">Personal participante</string>
+    <string name="report_field_media">Evidencias (fotos/videos)</string>
+    <string name="report_field_location">Ubicación GPS</string>
+    <string name="report_step_1">Fecha y horas</string>
+    <string name="report_step_2">Multimedia</string>
+    <string name="report_step_3">Materiales</string>
+    <string name="report_step_4">Equipos</string>
+    <string name="report_step_5">Personal</string>
+    <string name="report_step_6">Comentarios</string>
+    <string name="report_save">Guardar informe</string>
+    <string name="report_export_pdf">Exportar PDF</string>
+    <string name="report_export_json">Exportar JSON</string>
+    <string name="report_empty">Aún no hay informes. Crea el primero.</string>
+    <string name="report_saved">Informe guardado correctamente</string>
+
+    <!-- Employees -->
+    <string name="employee_new">Nuevo empleado</string>
+    <string name="employee_list">Empleados</string>
+    <string name="employee_name">Nombre completo</string>
+    <string name="employee_rut">RUT</string>
+    <string name="employee_role">Cargo</string>
+    <string name="employee_phone">Teléfono</string>
+    <string name="employee_email">Correo</string>
+    <string name="employee_active">Activo</string>
+    <string name="employee_empty">No hay empleados. La empresa debe crearlos.</string>
+    <string name="employee_saved">Empleado guardado</string>
+
+    <!-- Media -->
+    <string name="media_take_photo">Tomar foto</string>
+    <string name="media_record_video">Grabar video</string>
+    <string name="media_pick_gallery">Desde galería</string>
+    <string name="media_add_comment">Comentario de la evidencia</string>
+    <string name="media_empty">Sin evidencias adjuntas</string>
+
+    <!-- Materials / Equipment / Personnel -->
+    <string name="material_name">Nombre del material</string>
+    <string name="material_quantity">Cantidad</string>
+    <string name="material_unit">Unidad</string>
+    <string name="equipment_name">Nombre del equipo</string>
+    <string name="equipment_quantity">Cantidad</string>
+    <string name="personnel_name">Nombre del personal</string>
+    <string name="personnel_role">Función</string>
+    <string name="add_item">Agregar</string>
+
+    <!-- Company dashboard -->
+    <string name="dashboard_title">Panel Empresa</string>
+    <string name="dashboard_total_reports">Total informes</string>
+    <string name="dashboard_total_employees">Empleados activos</string>
+    <string name="dashboard_pending_sync">Pendientes de sincronizar</string>
+    <string name="dashboard_supervisors">Supervisores</string>
+    <string name="dashboard_recent_reports">Informes recientes</string>
+
+    <!-- Location -->
+    <string name="location_acquiring">Obteniendo ubicación…</string>
+    <string name="location_acquired">Ubicación: %1$s, %2$s</string>
+    <string name="location_disabled">GPS desactivado. Actívalo para registrar ubicación.</string>
+    <string name="location_capture">Capturar ubicación</string>
+
+    <!-- Offline -->
+    <string name="offline_mode">Modo offline</string>
+    <string name="offline_pending">Pendiente de sincronización</string>
+    <string name="offline_synced">Sincronizado</string>
+    <string name="offline_status_online">Conectado</string>
+
+    <!-- Common -->
+    <string name="action_save">Guardar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_delete">Eliminar</string>
+    <string name="action_edit">Editar</string>
+    <string name="action_back">Volver</string>
+    <string name="action_close">Cerrar</string>
+    <string name="action_continue">Continuar</string>
+    <string name="action_logout">Cerrar sesión</string>
+    <string name="action_share">Compartir</string>
+
+    <!-- Permissions -->
+    <string name="permission_camera_rationale">Se necesita la cámara para capturar fotos/videos del trabajo.</string>
+    <string name="permission_location_rationale">Se necesita ubicación para registrar dónde se realizó el trabajo.</string>
+    <string name="permission_storage_rationale">Se necesita almacenamiento para exportar los informes.</string>
+
+    <!-- Service notification -->
+    <string name="notif_channel_location">Captura de ubicación</string>
+    <string name="notif_channel_sync">Sincronización</string>
+    <string name="notif_location_text">BIOSUR está registrando ubicación de la obra</string>
+    <string name="notif_sync_text">Sincronizando informes pendientes…</string>
+
+    <!-- Default user -->
+    <string name="default_company_email">admin@biosur.cl</string>
+    <string name="default_company_password">biosur2024</string>
+</resources>
