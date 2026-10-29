@@ -1,0 +1,24 @@
+" Versiones del Sistema y Compilación "
+Versión de la App (Version Name): 1.0.0 (Código: 1)
+Compile SDK / Target SDK: 34 (Android 14)
+Min SDK: 26 (Android 8.0 Oreo — asegura compatibilidad con la gran mayoría de dispositivos actuales).
+Java / JVM Target: JavaVersion.VERSION_17 (Java 17)
+
+ Herramientas de Compilación y Plugins
+Android Gradle Plugin (AGP): 8.5.2
+Kotlin: 1.9.22
+KSP (Kotlin Symbol Processing): 1.9.22-1.0.17 (usado para compilar Room)
+Navigation SafeArgs: 2.7.7
+
+"Librerías Principales de Android Jetpack y Terceros "
+Room (Base de Datos Local): 2.6.1
+Navigation Component: 2.7.7
+Material Design 3: 1.12.0
+Lifecycle / ViewModel / LiveData: 2.8.4
+Kotlin Coroutines: 1.8.1
+CameraX (Cámara): 1.4.0
+Play Services Location (GPS): 21.3.0
+WorkManager (Tareas en background): 2.9.1
+Glide (Carga de imágenes): 4.16.0
+iTextPDF (Exportación a PDF): 5.5.13.3
+Gson (Exportación a JSON): 2.11.0
