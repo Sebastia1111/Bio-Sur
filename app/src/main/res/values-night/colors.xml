@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Paleta BIOSUR Oscura -->
+    <color name="blue_deep">#FF0B1320</color>
+    <color name="blue_primary">#FF3A78C9</color>
+    <color name="blue_primary_dark">#FF134E8E</color>
+    <color name="blue_light">#FF5A95E2</color>
+    <color name="blue_pale">#FF1D2939</color>
+
+    <color name="orange_primary">#FFFF6B1A</color>
+    <color name="orange_dark">#FFE5570A</color>
+    <color name="orange_light">#FFFF9259</color>
+    <color name="orange_pale">#FF3D1E0B</color>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="bg_app">#FF101828</color>
+    <color name="bg_card">#FF1D2939</color>
+    <color name="text_primary">#FFF9FAFB</color>
+    <color name="text_secondary">#FFD0D5DD</color>
+    <color name="text_hint">#FF667085</color>
+    <color name="divider">#FF344054</color>
+    <color name="outline">#FF475467</color>
+
+    <color name="success">#FF12B76A</color>
+    <color name="warning">#FFF79009</color>
+    <color name="error">#FFF04438</color>
+    <color name="info">#FF2E90FA</color>
+
+    <color name="splash_bg">#FF0B1320</color>
+</resources>
